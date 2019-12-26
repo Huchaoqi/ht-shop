@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+// 导入按需引入的组件
+import './plugins/element.js'
+// import ElementUI from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
+
+// Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
